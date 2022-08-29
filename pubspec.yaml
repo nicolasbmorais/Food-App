@@ -1,0 +1,46 @@
+name: food_app
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  common:
+    path: common
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.4
+  form_field_validator: ^1.1.0
+  geolocator: ^9.0.1
+  geocoding: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - common/assets/images/
+
+  fonts:
+    - family: SF Pro Text
+      fonts:
+        - asset: common/assets/font/SF Pro Text/SFProText-Regular.ttf
+        - asset: common/assets/font/SF Pro Text/SFProText-Bold.ttf
+          weight: 700
+        - asset: common/assets/font/SF Pro Text/SFProText-Semibold.ttf
+          weight: 600
+        - asset: common/assets/font/SF Pro Text/SFProText-Medium.ttf
+          weight: 500
+  
